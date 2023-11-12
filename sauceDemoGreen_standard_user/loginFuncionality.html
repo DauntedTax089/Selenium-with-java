@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="gherkin_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Gherkin loginFunctionality</title>
+
+<body>
+    <!--Feature: Check functionality
+            Scenario:
+                    Given: user is on "url";
+                    When: user puts credentials;
+                    And: click on buttons;
+                    Then: the page return;
+    
+            Given: Prerequisite;
+            When: Action;
+            And: Some more action;
+            Then: Expected Behavior;-->
+    <main>
+        <header>
+            <h1>Gherkin loginFunctionality</h1>
+        </header>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login Successfully ;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid credentials in the correct fields; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> Log in successfully;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with invalid username;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter invalid credential in the username field and valid credential in password
+                field; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with invalid password;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter invalid credential in the password field and valid credential in username
+                field; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with changed credentials;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid password in the username field, and valid username in password field;
+                <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with username in capital letters;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid username with capital letters in the username field, and valid
+                password in password field; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with password in capital letters;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid password with capital letters in the password field, and valid
+                username in username field; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login without username;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid password in the password field; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login without password;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid username in the username field; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login without credentials;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Don't type on fields; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with backspace before username;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid username with a backspace before the credential and a valid password
+                on the correct fields; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with backspace after username;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid username with a backspace after the credential and a valid password on the correct fields; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with backspace before password;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid password with a backspace before the credential and a valid username on the correct fields; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+        <article>
+            <h2>loginFunctionality</h2>
+            <p>
+                Feature: Login with backspace after password;
+            <p>Scenario:</p>
+            <p>
+            <ul>
+                <strong>Given:</strong> Be on the website <em>"https://www.saucedemo.com/"</em>; <br>
+                <strong>When:</strong> Enter valid password with a backspace after the credential and a valid username on the correct fields; <br>
+                <strong>And:</strong> Click on the login button; <br>
+                <strong>Then:</strong> An error appears on the login page stating that it is not possible to log in;
+            </ul>
+            </p>
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
